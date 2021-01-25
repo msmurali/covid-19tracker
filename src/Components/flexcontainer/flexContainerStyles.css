@@ -1,0 +1,24 @@
+.flex-container{
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    width: 100%;
+    min-height: 100vh;
+}
+.bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../../img/covidbg.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: blur(5px);
+    z-index: -10000000;
+}

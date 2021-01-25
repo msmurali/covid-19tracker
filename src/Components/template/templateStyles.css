@@ -1,0 +1,27 @@
+.template{
+    width: 90%;
+    min-height: 400px;
+    margin: 2rem auto;
+    border: 1px solid #0000002d;
+    padding: 2rem 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 1px #00000044;
+}
+.template:hover{
+    box-shadow: 0px 0px 10px 3px #00000044;
+}
+.template-content, .title{
+    font-family: 'Poppins',Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.title{
+    font-weight: 700;
+    margin-bottom: 2rem;
+}

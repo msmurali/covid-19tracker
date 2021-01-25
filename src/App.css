@@ -1,0 +1,23 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    width: 100%;
+    min-height: 100vh;
+    /* background: url('./img/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+.loader{
+    width: 100vw;
+    height: 100vh;
+    font-size: 3rem;
+    font-family:'Poppins';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
